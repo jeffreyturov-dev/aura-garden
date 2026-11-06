@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Aura — your pulse, painted as a garden</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div>
+        <p class="eyebrow">A CONSENT-FIRST HUMAN-REACTIVE GARDEN</p>
+        <h1>Your pulse,<br><span>painted as a garden.</span></h1>
+        <p class="lede">Aura turns a real SmartSpectra pulse waveform into a living patch of light. No diagnosis, no score, no feed to scroll — just a minute outside the noise.</p>
+      </div>
+      <div class="privacy-pill"><span class="dot"></span><span id="privacy-state">Camera off · nothing captured</span></div>
+    </header>
+
+    <section class="experience" aria-label="Aura interactive garden">
+      <div class="garden-wrap">
+        <canvas id="garden" width="1100" height="620" aria-label="Generative flowers animated by real pulse data"></canvas>
+        <div class="garden-topline">
+          <span id="mode-label">GARDEN IDLE</span>
+          <span id="session-time">00:00</span>
+        </div>
+        <div class="waiting" id="waiting">
+          <div class="waiting-mark">✦</div>
+          <strong>Waiting for a real signal</strong>
+          <span>The flowers wake only when SmartSpectra sends data.</span>
+        </div>
+        <div class="signal-legend"><span class="live-dot"></span> REAL SIGNAL ONLY · NO SYNTHETIC METRICS</div>
+      </div>
+
+      <aside class="panel">
+        <div class="status-row">
+          <span class="label">SESSION</span>
+          <span class="status" id="status">Idle</span>
+        </div>
+        <div class="metric-primary">
+          <span class="metric-label">PULSE</span>
+          <div><strong id="pulse">—</strong><span class="unit">BPM</span></div>
+          <span class="metric-note" id="pulse-note">Needs ~12 seconds of clean video</span>
+        </div>
+        <div class="metric-grid">
+          <div><span class="label">CONFIDENCE</span><strong id="confidence">—</strong></div>
+          <div><span class="label">PACKETS</span><strong id="packets">0</strong></div>
+        </div>
+        <div class="wave-card">
+          <span class="label">RELATIVE PULSE WAVEFORM</span>
+          <svg viewBox="0 0 300 72" role="img" aria-label="Live relative arterial pressure waveform">
+            <path class="wave-grid" d="M0 18H300M0 36H300M0 54H300" />
+            <path id="wave" class="wave" d="M0 36H300" />
+          </svg>
+          <span class="metric-note">Wave shape only — never a blood-pressure reading.</span>
+        </div>
+        <div class="guidance" id="guidance">Choose a source below. Your explicit action starts every session.</div>
+        <div class="source-preview">
+          <video id="camera-preview" muted autoplay playsinline hidden></video>
+          <video id="demo-preview" muted playsinline hidden></video>
+          <canvas id="frame-canvas" width="640" height="360" hidden></canvas>
+        </div>
+      </aside>
+    </section>
+
+    <section class="controls" id="consent-panel">
+      <div class="consent-copy">
+        <h2>You stay in control</h2>
+        <label class="check"><input type="checkbox" id="consent"><span>I explicitly consent to camera or recorded-video processing for this session. I understand this is a creative wellness experience, not a medical device.</span></label>
+        <details>
+          <summary>Exactly what happens to my data</summary>
+          <p>Metric computation runs on-device in the Presage SmartSpectra SDK. Network access authenticates the API key, validates the subscription and can fetch encrypted model artifacts. Raw camera frames are not uploaded by Aura. Aggregate SDK telemetry is disabled. Metrics live only in this tab’s memory; there are no accounts, cookies, analytics, database or automatic exports. “End & erase” releases the camera and clears the session.</p>
+        </details>
+      </div>
+      <div class="buttons">
+        <button id="start-camera" class="primary" disabled><span>Use my camera</span><small>Live · video only · no microphone</small></button>
+        <button id="start-demo" class="secondary" disabled><span>Replay a research clip</span><small>UCLA synthetic avatar · real SDK output</small></button>
+        <button id="stop" class="stop" hidden>End session & erase</button>
+      </div>
+    </section>
+
+    <footer>
+      <span>Built with Presage SmartSpectra SDK 3.4.0</span>
+      <span>General wellness & creative use only · 18+</span>
+      <a href="https://github.com/jeffreyturov-dev/aura-garden">Source & setup</a>
+    </footer>
+  </main>
+  <script src="/garden.js"></script>
+  <script src="/app.js"></script>
+</body>
+</html>

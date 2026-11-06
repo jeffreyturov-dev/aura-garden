@@ -1,0 +1,12 @@
+node_modules/
+.env
+.env.*
+!.env.example
+.local/
+*.log
+measurement.json
+test-artifacts/
+!test-artifacts/.gitkeep
+playwright-report/
+test-results/
+.DS_Store

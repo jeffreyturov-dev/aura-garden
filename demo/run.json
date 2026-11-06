@@ -1,0 +1,326 @@
+{
+  "samples": [
+    {
+      "elapsedSeconds": 0.003,
+      "status": "Idle",
+      "pulse": "—",
+      "confidence": "—",
+      "packets": "0",
+      "guidance": "Starting SmartSpectra and authenticating the local session…",
+      "mode": "RECORDED CAMERA CLIP · LIVE SDK PIPELINE",
+      "waitingHidden": false
+    },
+    {
+      "elapsedSeconds": 2.005,
+      "status": "Running",
+      "pulse": "—",
+      "confidence": "—",
+      "packets": "0",
+      "guidance": "Ok: Hold still and record.",
+      "mode": "RECORDED CAMERA CLIP · LIVE SDK PIPELINE",
+      "waitingHidden": false
+    },
+    {
+      "elapsedSeconds": 4.006,
+      "status": "Running",
+      "pulse": "—",
+      "confidence": "—",
+      "packets": "0",
+      "guidance": "Ok: Hold still and record.",
+      "mode": "RECORDED CAMERA CLIP · LIVE SDK PIPELINE",
+      "waitingHidden": false
+    },
+    {
+      "elapsedSeconds": 6.009,
+      "status": "Running",
+      "pulse": "—",
+      "confidence": "—",
+      "packets": "0",
+      "guidance": "Ok: Hold still and record.",
+      "mode": "RECORDED CAMERA CLIP · LIVE SDK PIPELINE",
+      "waitingHidden": false
+    },
+    {
+      "elapsedSeconds": 8.01,
+      "status": "Running",
+      "pulse": "—",
+      "confidence": "—",
+      "packets": "0",
+      "guidance": "Ok: Hold still and record.",
+      "mode": "RECORDED CAMERA CLIP · LIVE SDK PIPELINE",
+      "waitingHidden": false
+    },
+    {
+      "elapsedSeconds": 10.012,
+      "status": "Running",
+      "pulse": "—",
+      "confidence": "—",
+      "packets": "0",
+      "guidance": "Ok: Hold still and record.",
+      "mode": "RECORDED CAMERA CLIP · LIVE SDK PIPELINE",
+      "waitingHidden": false
+    },
+    {
+      "elapsedSeconds": 12.013,
+      "status": "Running",
+      "pulse": "—",
+      "confidence": "—",
+      "packets": "0",
+      "guidance": "Ok: Hold still and record.",
+      "mode": "RECORDED CAMERA CLIP · LIVE SDK PIPELINE",
+      "waitingHidden": false
+    },
+    {
+      "elapsedSeconds": 14.016,
+      "status": "Running",
+      "pulse": "89.5",
+      "confidence": "18%",
+      "packets": "10",
+      "guidance": "Ok: Hold still and record.",
+      "mode": "RECORDED CAMERA CLIP · LIVE SDK PIPELINE",
+      "waitingHidden": true
+    },
+    {
+      "elapsedSeconds": 16.018,
+      "status": "Running",
+      "pulse": "88.5",
+      "confidence": "52%",
+      "packets": "22",
+      "guidance": "Ok: Hold still and record.",
+      "mode": "RECORDED CAMERA CLIP · LIVE SDK PIPELINE",
+      "waitingHidden": true
+    },
+    {
+      "elapsedSeconds": 18.021,
+      "status": "Running",
+      "pulse": "85.0",
+      "confidence": "66%",
+      "packets": "35",
+      "guidance": "Ok: Hold still and record.",
+      "mode": "RECORDED CAMERA CLIP · LIVE SDK PIPELINE",
+      "waitingHidden": true
+    },
+    {
+      "elapsedSeconds": 20.026,
+      "status": "Running",
+      "pulse": "69.6",
+      "confidence": "21%",
+      "packets": "47",
+      "guidance": "Ok: Hold still and record.",
+      "mode": "RECORDED CAMERA CLIP · LIVE SDK PIPELINE",
+      "waitingHidden": true
+    },
+    {
+      "elapsedSeconds": 22.223,
+      "status": "Running",
+      "pulse": "92.0",
+      "confidence": "84%",
+      "packets": "62",
+      "guidance": "Ok: Hold still and record.",
+      "mode": "RECORDED CAMERA CLIP · LIVE SDK PIPELINE",
+      "waitingHidden": true
+    },
+    {
+      "elapsedSeconds": 24.227,
+      "status": "Running",
+      "pulse": "82.0",
+      "confidence": "72%",
+      "packets": "74",
+      "guidance": "Ok: Hold still and record.",
+      "mode": "RECORDED CAMERA CLIP · LIVE SDK PIPELINE",
+      "waitingHidden": true
+    },
+    {
+      "elapsedSeconds": 26.228,
+      "status": "Running",
+      "pulse": "79.5",
+      "confidence": "65%",
+      "packets": "87",
+      "guidance": "Ok: Hold still and record.",
+      "mode": "RECORDED CAMERA CLIP · LIVE SDK PIPELINE",
+      "waitingHidden": true
+    },
+    {
+      "elapsedSeconds": 28.233,
+      "status": "Running",
+      "pulse": "79.5",
+      "confidence": "77%",
+      "packets": "100",
+      "guidance": "Ok: Hold still and record.",
+      "mode": "RECORDED CAMERA CLIP · LIVE SDK PIPELINE",
+      "waitingHidden": true
+    },
+    {
+      "elapsedSeconds": 30.236,
+      "status": "Running",
+      "pulse": "81.9",
+      "confidence": "65%",
+      "packets": "111",
+      "guidance": "Ok: Hold still and record.",
+      "mode": "RECORDED CAMERA CLIP · LIVE SDK PIPELINE",
+      "waitingHidden": true
+    },
+    {
+      "elapsedSeconds": 32.24,
+      "status": "Running",
+      "pulse": "92.4",
+      "confidence": "37%",
+      "packets": "123",
+      "guidance": "Ok: Hold still and record.",
+      "mode": "RECORDED CAMERA CLIP · LIVE SDK PIPELINE",
+      "waitingHidden": true
+    },
+    {
+      "elapsedSeconds": 34.25,
+      "status": "Running",
+      "pulse": "79.4",
+      "confidence": "73%",
+      "packets": "136",
+      "guidance": "Ok: Hold still and record.",
+      "mode": "RECORDED CAMERA CLIP · LIVE SDK PIPELINE",
+      "waitingHidden": true
+    },
+    {
+      "elapsedSeconds": 36.252,
+      "status": "Running",
+      "pulse": "86.5",
+      "confidence": "34%",
+      "packets": "149",
+      "guidance": "Ok: Hold still and record.",
+      "mode": "RECORDED CAMERA CLIP · LIVE SDK PIPELINE",
+      "waitingHidden": true
+    },
+    {
+      "elapsedSeconds": 38.254,
+      "status": "Running",
+      "pulse": "80.0",
+      "confidence": "52%",
+      "packets": "161",
+      "guidance": "Ok: Hold still and record.",
+      "mode": "RECORDED CAMERA CLIP · LIVE SDK PIPELINE",
+      "waitingHidden": true
+    },
+    {
+      "elapsedSeconds": 40.259,
+      "status": "Running",
+      "pulse": "79.3",
+      "confidence": "46%",
+      "packets": "175",
+      "guidance": "Ok: Hold still and record.",
+      "mode": "RECORDED CAMERA CLIP · LIVE SDK PIPELINE",
+      "waitingHidden": true
+    },
+    {
+      "elapsedSeconds": 42.262,
+      "status": "Running",
+      "pulse": "88.7",
+      "confidence": "62%",
+      "packets": "188",
+      "guidance": "Ok: Hold still and record.",
+      "mode": "RECORDED CAMERA CLIP · LIVE SDK PIPELINE",
+      "waitingHidden": true
+    },
+    {
+      "elapsedSeconds": 44.265,
+      "status": "Running",
+      "pulse": "90.8",
+      "confidence": "53%",
+      "packets": "200",
+      "guidance": "Ok: Hold still and record.",
+      "mode": "RECORDED CAMERA CLIP · LIVE SDK PIPELINE",
+      "waitingHidden": true
+    },
+    {
+      "elapsedSeconds": 46.461,
+      "status": "Running",
+      "pulse": "83.9",
+      "confidence": "60%",
+      "packets": "214",
+      "guidance": "Ok: Hold still and record.",
+      "mode": "RECORDED CAMERA CLIP · LIVE SDK PIPELINE",
+      "waitingHidden": true
+    },
+    {
+      "elapsedSeconds": 48.463,
+      "status": "Running",
+      "pulse": "87.2",
+      "confidence": "73%",
+      "packets": "227",
+      "guidance": "Ok: Hold still and record.",
+      "mode": "RECORDED CAMERA CLIP · LIVE SDK PIPELINE",
+      "waitingHidden": true
+    },
+    {
+      "elapsedSeconds": 50.466,
+      "status": "Running",
+      "pulse": "85.2",
+      "confidence": "75%",
+      "packets": "240",
+      "guidance": "Ok: Hold still and record.",
+      "mode": "RECORDED CAMERA CLIP · LIVE SDK PIPELINE",
+      "waitingHidden": true
+    },
+    {
+      "elapsedSeconds": 52.468,
+      "status": "Idle",
+      "pulse": "80.1",
+      "confidence": "53%",
+      "packets": "251",
+      "guidance": "Replay complete. End & erase to clear all metrics, or start again.",
+      "mode": "REPLAY COMPLETE · SESSION DATA REMAINS IN THIS TAB",
+      "waitingHidden": true
+    },
+    {
+      "elapsedSeconds": 54.475,
+      "status": "Idle",
+      "pulse": "80.1",
+      "confidence": "53%",
+      "packets": "251",
+      "guidance": "Replay complete. End & erase to clear all metrics, or start again.",
+      "mode": "REPLAY COMPLETE · SESSION DATA REMAINS IN THIS TAB",
+      "waitingHidden": true
+    },
+    {
+      "elapsedSeconds": 56.477,
+      "status": "Idle",
+      "pulse": "80.1",
+      "confidence": "53%",
+      "packets": "251",
+      "guidance": "Replay complete. End & erase to clear all metrics, or start again.",
+      "mode": "REPLAY COMPLETE · SESSION DATA REMAINS IN THIS TAB",
+      "waitingHidden": true
+    },
+    {
+      "elapsedSeconds": 58.48,
+      "status": "Idle",
+      "pulse": "80.1",
+      "confidence": "53%",
+      "packets": "251",
+      "guidance": "Replay complete. End & erase to clear all metrics, or start again.",
+      "mode": "REPLAY COMPLETE · SESSION DATA REMAINS IN THIS TAB",
+      "waitingHidden": true
+    },
+    {
+      "elapsedSeconds": 60.482,
+      "status": "Idle",
+      "pulse": "80.1",
+      "confidence": "53%",
+      "packets": "251",
+      "guidance": "Replay complete. End & erase to clear all metrics, or start again.",
+      "mode": "REPLAY COMPLETE · SESSION DATA REMAINS IN THIS TAB",
+      "waitingHidden": true
+    },
+    {
+      "elapsedSeconds": 62.484,
+      "status": "Idle",
+      "pulse": "80.1",
+      "confidence": "53%",
+      "packets": "251",
+      "guidance": "Replay complete. End & erase to clear all metrics, or start again.",
+      "mode": "REPLAY COMPLETE · SESSION DATA REMAINS IN THIS TAB",
+      "waitingHidden": true
+    }
+  ],
+  "consoleMessages": [],
+  "videoPath": "/opt/data/projet/aura-garden/test-artifacts/final-demo/page@1ab0b0e483b194c0e16a9324ba9ce329.webm"
+}

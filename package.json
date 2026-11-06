@@ -1,0 +1,27 @@
+{
+  "name": "aura-human-reactive-garden",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A consent-first camera-reactive garden powered by Presage SmartSpectra.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "start:lavapipe": "bash scripts/with-lavapipe.sh node server.js",
+    "setup:vulkan": "bash scripts/setup-lavapipe-user.sh",
+    "test": "node --test tests/*.test.js",
+    "demo": "node scripts/file-measurement.js",
+    "demo:record": "node scripts/record-demo.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@smartspectra/node-sdk": "3.4.0",
+    "express": "^5.1.0",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.0"
+  }
+}
